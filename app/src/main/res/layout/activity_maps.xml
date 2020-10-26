@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+    <TextView
+    android:id="@+id/FoundSites"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="20dp"
+    android:padding="10dp"
+    android:text="FoundSites"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+    android:id="@+id/Gasolina"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_marginTop="90dp"
+    android:gravity="top"
+    android:drawableBottom="@drawable/icono_gasolinera"
+
+
+    android:padding="10dp"
+    android:visibility="visible"
+    tools:visibility="visible" />
+    <Button
+    android:id="@+id/Farmacia"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_marginTop="150dp"
+    android:drawableBottom="@drawable/icono_farmacia"
+    android:gravity="left|top"
+    android:padding="10dp"/>
+
+    <Button
+    android:id="@+id/Restaurat"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_marginTop="210dp"
+    android:drawableBottom="@drawable/icono_comida"
+    android:gravity="left|top"
+    android:padding="10dp"
+        />
+
+    <Button
+    android:id="@+id/Ubica"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_marginTop="270dp"
+    android:drawableBottom="@drawable/marcador_posicion"
+    android:gravity="left|top"
+    android:padding="10dp"        />
+
+
+    </fragment>
